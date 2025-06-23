@@ -17,7 +17,31 @@
 
 
     <div class="game-area">
+        <div class="controls-area">
+            <button class="btn btn--big btn--green">
+                <i class="fas fa-plus"></i>
+            </button>
+            <button class="btn btn--big btn--blue">
+                <i class="fas fa-minus"></i>
+            </button>
+            <button class="btn btn--big btn--orange">
+                <i class="fas fa-times"></i>
+            </button>
+            <button class="btn btn--big btn--red">
+                <i class="fas fa-divide"></i>
+            </button>
+        </div>
 
+        <div class="questions-area">
+            <span id="operand1">0</span>
+            <span id="operator">x</span>
+            <span id="operand2">0</span>
+            <span>=</span>
+            <p class="awnser-message">Enter Awnser:</p>
+            <input id="awnser-box" type="number">
+        </div>
+
+        <button class="btn btn--grey">Submit Awnser</button>
     </div>
 
     <div class="score-area">
@@ -25,7 +49,7 @@
        <p class="scores">Incorrect Awnsers: <span class="incorrect">0</span></p>
     </div>
 
-    
+
     <script src="assets/js/script.js"></script>
 </body>
 </html>
